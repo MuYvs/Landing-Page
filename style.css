@@ -4,11 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 128px;
 }
 .top-section {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 .logo-links {
     display: flex;
@@ -51,4 +53,51 @@ ul {
     border: 1px solid;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.boxes-container {
+    display: flex;
+    gap: 32px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 7.5%;
+}
+.box-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+}
+.box-two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+}
+.box-three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+}
+.box-four-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+}
+
+
