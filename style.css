@@ -6,7 +6,7 @@ body {
     align-items: center;
     padding: 0;
     margin: 0;
-    gap: 128px;
+    gap: 32px;
     font: 1em sans-serif;
 }
 /*Top Section*/
@@ -84,17 +84,25 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
+}
+h1 {
+    color: #1F2937;
 }
 .boxes-container {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 .box {
     width: 150px;
     height: 150px;
-    border: 1px solid;
+    border: 2px solid;
+    color: #3882f6  ;
     border-radius: 7.5%;
+}
+.subtext {
+    color: #1f2937bd;
 }
 .box-one-container {
     display: flex;
