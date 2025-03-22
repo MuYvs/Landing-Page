@@ -86,7 +86,7 @@ ul {
     align-items: center;
     gap: 32px;
 }
-h1 {
+#info-header{
     color: #1F2937;
 }
 .boxes-container {
