@@ -171,15 +171,30 @@ ul {
     justify-content: space-between;
     width: 768px;
     gap: 100px;
-    border: 1px solid;
     border-radius: 10px;
     align-items: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+.text-main {
+    font-weight: 900;
+}
+#scnd-sign-up{
+    border: 2px solid;
 }
 
 /*Footer Section*/
 
 .footer {
     padding: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,1);
+
 }
 
 /*Sign-up Button*/
